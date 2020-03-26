@@ -7,15 +7,17 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This project will be a clone of **MyAnimeList**, with some curated design on the front-end.
 
 ## API
 
 Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
 
 
-```
-{data: {} }
+```javascript
+fetch(https://api.jikan.moe/v3/search/anime?q=Naruto&limit=16)
+	.then(res => res.json())
+	.then(data => console.log(data))
 ```
 
 
@@ -45,11 +47,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-| Component | Description | 
-| --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| Component | Description |
+| --- | :---: |
+| App | This will make the initial data pull and include React Router|
+| Header | This will render the header include the nav |
+| Footer | This will render the header include the nav |
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
