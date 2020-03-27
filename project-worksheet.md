@@ -18,6 +18,44 @@ Use this section to include info about the API you have chosen and a code snippe
 fetch(https://api.jikan.moe/v3/search/anime?q=Naruto&limit=16)
 	.then(res => res.json())
 	.then(data => console.log(data))
+//
+{
+  "request_hash": "request:search:628b06fe5b4699e5d53d1af61571e8eadf1132d0",
+  "request_cached": true,
+  "request_cache_expiry": 216741,
+  "results": [
+    {
+      "mal_id": 20,
+      "url": "https://myanimelist.net/anime/20/Naruto",
+      "image_url": "https://cdn.myanimelist.net/images/anime/13/17405.jpg?s=59241469eb470604a792add6fbe7cce6",
+      "title": "Naruto",
+      "airing": false,
+      "synopsis": "Moments prior to Naruto Uzumaki's birth, a huge demon known as the Kyuubi, the Nine-Tailed Fox, attacked Konohagakure, the Hidden Leaf Village, and wreaked havoc. In order to put an end to the Kyuubi'...",
+      "type": "TV",
+      "episodes": 220,
+      "score": 7.88,
+      "start_date": "2002-10-03T00:00:00+00:00",
+      "end_date": "2007-02-08T00:00:00+00:00",
+      "members": 1332420,
+      "rated": "PG-13"
+    },
+    {
+      "mal_id": 1735,
+      "url": "https://myanimelist.net/anime/1735/Naruto__Shippuuden",
+      "image_url": "https://cdn.myanimelist.net/images/anime/5/17407.jpg?s=2bf24a22a339223dcadb1cdfc3307b61",
+      "title": "Naruto: Shippuuden",
+      "airing": false,
+      "synopsis": "It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the myster...",
+      "type": "TV",
+      "episodes": 500,
+      "score": 8.15,
+      "start_date": "2007-02-15T00:00:00+00:00",
+      "end_date": "2017-03-23T00:00:00+00:00",
+      "members": 1104827,
+      "rated": "PG-13"
+    }
+  ]
+}
 ```
 
 
@@ -49,6 +87,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Filter anime based on most viewed, or highest rated.
 - More reviews page on anime/manga.
+- Search
+- Favorites
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -75,16 +115,19 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Nav          | H | 1.5 hr |  |  |
-| CatCarousel  | H | 2hr |               |  |
-| TitleImg     | H | 1hr |               |  |
-| Descr        | H | 1hr |               |  |
-| Reviews      | H | 2hr |               |  |
-| Total        |  | 7.5hr |               |  |
+| Nav          | H | 3 hr |  |  |
+| CatCarousel  | H | 4 hr |               |  |
+| TitleImg     | H | 3 hr |               |  |
+| Descr        | H | 3 hr |               |  |
+| Reviews      | H | 4 hr |               |  |
+| Responsiveness | H | 7 hr | | |
+| Total        |  | 24 hr |               |  |
 | Post-MVP     |  |  |               |  |
-| Reviews Page | L | 2.5hr |               |  |
-| Filters      | L | 3hr |               |  |
-| Total        |  | 13hr |               |  |
+| Search | M | 3 hr | | |
+| Favorites | M | 4 hr | | |
+| Reviews Page | L | 3 hr |               |  |
+| Filters      | L | 4 hr |               |  |
+| Total        |  | 38 hr |               |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
