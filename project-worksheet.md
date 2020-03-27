@@ -65,17 +65,26 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Descr       | Descr of Anime/Manga |
 | Reviews     | Average Reviews and List of Reviews |
 
-
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+## Time Matrix
+
+- [Time Matrix](https://res.cloudinary.com/techienaut/image/upload/v1585277003/Time_Matrix_s5vt5s.png)
+
+## Time Frame
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Nav         | H | 1.5 hr |  |  |
-| CatCarousel | H | 2hr |                |  |
-| TitleImg    | H | 1hr |                |  |
-| Descr       | H | 1hr |                |  |
-| Reviews     | H | 2hr |                |  |
-| Total       |  | 7.5hr |                |  |
+| Nav          | H | 1.5 hr |  |  |
+| CatCarousel  | H | 2hr |               |  |
+| TitleImg     | H | 1hr |               |  |
+| Descr        | H | 1hr |               |  |
+| Reviews      | H | 2hr |               |  |
+| Total        |  | 7.5hr |               |  |
+| Post-MVP     |  |  |               |  |
+| Reviews Page | L | 2.5hr |               |  |
+| Filters      | L | 3hr |               |  |
+| Total        |  | 13hr |               |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
