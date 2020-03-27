@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [add your github repo link]()
+- [github- Project 2 React](https://github.com/techienaut/project_2_react)
 - [add your deployment link]()
 
 ## Project Description
